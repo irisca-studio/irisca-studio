@@ -120,17 +120,27 @@ export default function Home() {
 
 
       {/* Gallery Section */}
-      <section id="gallery" className="px-6 py-20">
+<section id="gallery" className="px-6 py-20">
 
-        <h2 className="text-4xl font-bold text-red-600">
-          Gallery
-        </h2>
+  <h2 className="text-4xl font-bold text-red-600">
+    Gallery
+  </h2>
 
-        <p className="mt-4 text-gray-400">
-          My latest artworks will be displayed here.
-        </p>
+  <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
 
-      </section>
+    <img src="/k1.jpg" className="rounded-xl" />
+<img src="/k2.jpg" className="rounded-xl" />
+<img src="/k3.mp4.webp" className="rounded-xl" />
+<img src="/k4.webp" className="rounded-xl" />
+<img src="/k5.jpg" className="rounded-xl" />
+<img src="/k6.jpg.png" className="rounded-xl" />
+<img src="/k7.jpg" className="rounded-xl" />
+<img src="/k8.png" className="rounded-xl" />
+<img src="/k9.jpg" className="rounded-xl" />
+<img src="/k10.jpg" className="rounded-xl" />
+  </div>
+
+</section>
 
 
     </main>
