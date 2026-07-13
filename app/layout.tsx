@@ -18,6 +18,10 @@ export const metadata: Metadata = {
   description:
     "Professional Anime Artist creating original characters, VTuber art, wallpapers, fan art, illustrations and commission artwork.",
 
+  verification: {
+    google: "wVQWA9w9vbOipgKpoSCEwWtrERfv7sZhoioiU9VVz3c",
+  },
+
   keywords: [
     "Irisca Studio",
     "Anime Artist",
